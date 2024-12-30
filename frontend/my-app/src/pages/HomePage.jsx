@@ -38,7 +38,7 @@ import CodeEditor from "../components/Codeediter";
         setLoading(true);
         try {
           const response = await axios.post(
-            "https://code-converter-backend-qmm7.onrender.com/convert",
+            "https://code-converter-be-y7md.onrender.com/convert",
             obj,
             {
               headers: {
@@ -65,7 +65,7 @@ import CodeEditor from "../components/Codeediter";
         setLoading(true);
         try {
           const response = await axios.post(
-            "https://code-converter-backend-qmm7.onrender.com/debug",
+            "https://code-converter-be-y7md.onrender.com/debug",
             obj,
             {
               headers: {
@@ -92,7 +92,7 @@ import CodeEditor from "../components/Codeediter";
         setLoading(true);
         try {
           const response = await axios.post(
-            "https://code-converter-backend-qmm7.onrender.com/qualitycheck",
+            "https://code-converter-be-y7md.onrender.com/qualitycheck",
             obj,
             {
               headers: {
